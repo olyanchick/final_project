@@ -1,0 +1,67 @@
+.faq {
+    border-bottom: 1px solid #111;
+    max-width: 552px;
+    transition: max-height 0.3s ease;
+    overflow: hidden;
+}
+
+.faq_title {
+    display: flex;
+    justify-content: space-between;
+    color: #000;
+    font-family: Commissioner;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    margin-bottom: 22px;
+    align-items: center;
+}
+
+.faq_answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.7s ease;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.open .faq_answer {
+    max-height: 500px; /* или любое другое максимальное значение, подходящее для вашего контента */
+}
+
+.faq_title:hover {
+    color: #555; /* добавление эффекта при наведении */
+    /*transition: transform .7s;*/
+    /*transform: scale(1.1);*/
+}
+
+.icon_rotate {
+    transition: transform 0.3s ease;
+}
+
+.rotated {
+    transform: rotate(180deg);
+}
+
+@media (max-width: 1280px) {
+    .faq_title {
+        font-size: 26px;
+    }
+
+    .faq {
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 1152px) {
+    .faq_title {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 1024px) {
+
+}

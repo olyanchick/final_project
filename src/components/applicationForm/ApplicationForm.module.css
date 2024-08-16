@@ -1,0 +1,237 @@
+/*.form_container {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    !*padding: 20px;*!*/
+/*    margin-bottom: 120px;*/
+/*}*/
+
+/*.application_form {*/
+/*    align-items: center;*/
+/*    background-color: #FFFFFF;*/
+/*    width: 100%;*/
+/*    max-width: 630px;*/
+/*    padding: 45px 108px;*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+/*.form_title {*/
+/*    font-weight: 600;*/
+/*    font-size: 36px;*/
+/*    line-height: 44px;*/
+/*    text-align: center;*/
+/*}*/
+
+/*label {*/
+/*    font-weight: 400;*/
+/*    font-size: 20px;*/
+/*}*/
+
+/*.input_field {*/
+/*    margin-top: 30px;*/
+/*}*/
+
+/*input, textarea {*/
+/*    display: block;*/
+/*    border: 1px solid #B7B7B7;*/
+/*    border-radius: 4px;*/
+/*    margin-top: 10px;*/
+/*    width: 100%;*/
+/*    font-weight: 400;*/
+/*    font-size: 20px;*/
+/*    padding: 13px 0 13px 13px;*/
+/*    color: black;*/
+/*}*/
+
+/*textarea {*/
+/*    min-height: 140px;*/
+/*}*/
+
+/*input::placeholder {*/
+/*    color: #B7B7B7;*/
+/*}*/
+
+/*.input_error {*/
+/*    border-color: red;*/
+/*}*/
+
+/*.form_button {*/
+/*    margin: 30px auto 0; !* Центровка кнопки по горизонтали *!*/
+/*    border: 2px solid #CCA237;*/
+/*    border-radius: 48px;*/
+/*    padding: 25px 90px;*/
+/*    background-color: #FFC01E4D;*/
+/*    color: #CCA237;*/
+/*    font-family: "Commissioner", sans-serif;*/
+/*    font-weight: 400;*/
+/*    font-size: 24px;*/
+/*    transition: transform .7s;*/
+/*    max-width: 300px; !* Ограничение максимальной ширины кнопки *!*/
+/*    width: fit-content; !* Ширина кнопки подгоняется под содержимое *!*/
+/*    box-sizing: border-box;*/
+/*    text-align: center;*/
+/*    display: block; !* Позволяет margin auto корректно центрировать блок *!*/
+/*}*/
+
+/*.form_button:hover {*/
+/*    border: 2px solid #FFC01E;*/
+/*    color: #000000;*/
+/*    box-shadow: 0px 0px 20.299999237060547px #FFC01E;*/
+/*    background-color: #FFC01E;*/
+/*    transition: transform .7s;*/
+/*    transform: scale(1.1);*/
+/*}*/
+
+/*.error_message {*/
+/*    min-height: 10px;*/
+/*    color: red;*/
+/*    font-size: 8px;*/
+/*}*/
+
+/*!* Медиа-запросы для адаптивности *!*/
+
+/*@media (max-width: 1152px) {*/
+/*    .form_title {*/
+/*        font-size: 33px;*/
+/*    }*/
+/*}*/
+/*@media (max-width: 768px) {*/
+/*    .application_form {*/
+/*        padding: 30px 40px;*/
+/*    }*/
+
+/*    .form_title {*/
+/*        font-size: 28px;*/
+/*        line-height: 34px;*/
+/*    }*/
+
+/*    input, textarea {*/
+/*        font-size: 18px;*/
+/*    }*/
+
+/*    label {*/
+/*        font-size: 18px;*/
+/*    }*/
+
+/*    .form_button {*/
+/*        font-size: 20px;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 425px) {*/
+/*    .application_form {*/
+/*        padding: 20px 20px;*/
+/*    }*/
+
+/*    .form_title {*/
+/*        font-size: 24px;*/
+/*        line-height: 30px;*/
+/*    }*/
+
+/*    input, textarea {*/
+/*        font-size: 16px;*/
+/*    }*/
+
+/*    label {*/
+/*        font-size: 16px;*/
+/*    }*/
+
+/*    .form_button {*/
+/*        padding: 15px 60px;*/
+/*        font-size: 18px;*/
+/*    }*/
+/*}*/
+
+.form_container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+.application_form {
+    align-items: center;
+    background-color: #FFFFFF;
+    width: 100%;
+    max-width: 630px;
+    padding: 45px 108px;
+    box-sizing: border-box;
+}
+
+.form_title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+}
+
+label {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.input_field {
+    margin-top: 30px;
+    position: relative;
+}
+
+.input_wrapper {
+    position: relative;
+}
+
+input, textarea {
+    display: block;
+    border: 1px solid #B7B7B7;
+    border-radius: 4px;
+    margin-top: 10px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 13px 0 13px 13px;
+    color: black;
+    box-sizing: border-box;
+}
+
+textarea {
+    min-height: 140px;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #B7B7B7;
+}
+
+.input_error {
+    border-color: red;
+}
+
+.form_button {
+    margin: 30px auto 0;
+    border: 2px solid #CCA237;
+    border-radius: 48px;
+    padding: 25px 90px;
+    background-color: #FFC01E4D;
+    color: #CCA237;
+    font-family: "Commissioner", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    transition: transform .7s;
+    max-width: 300px;
+    width: fit-content;
+    box-sizing: border-box;
+    text-align: center;
+    display: block;
+}
+
+.form_button:hover {
+    border: 2px solid #FFC01E;
+    color: #000000;
+    box-shadow: 0px 0px 20.299999237060547px #FFC01E;
+    background-color: #FFC01E;
+    transition: transform .7s;
+    transform: scale(1.1);
+}
+
+.error_message {
+    min-height: 10px;
+    color: red;
+    font-size: 8px;
+}
+

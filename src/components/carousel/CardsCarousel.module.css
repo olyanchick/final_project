@@ -1,0 +1,49 @@
+.product_carousel .slide {
+    opacity: 0.5;
+    transition: opacity 0.5s;
+}
+
+.product_carousel .slide.selected {
+    opacity: 1;
+}
+
+.product_carousel .slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product_slide {
+    padding: 0 10px;
+    margin-top: 50px;
+}
+
+.carousel .slide img {
+    width: 278px;
+    height: 278px;
+}
+
+.carousel img {
+    width: 0;
+}
+
+.carousel .slide {
+    opacity: 0.5;
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.carousel .slide.selected {
+    opacity: 1 !important;
+    transform: scale(1.1); /* Увеличивает размер выбранной карточки */
+}
+
+.carousel .slider-wrapper {
+    overflow: visible;
+}
+
+.product_slide {
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+

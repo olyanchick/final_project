@@ -1,0 +1,82 @@
+.production_card {
+    font-family: "Commissioner", sans-serif ;
+    font-weight: 500;
+    background-color: #FFFFFF;
+    min-width: 413px;
+    text-align: center;
+    padding: 32px 0 36px;
+}
+
+.product_card_name {
+    font-weight: 500;
+    font-size: 36px;
+    /*margin-top: 32px;*/
+}
+
+.production_card_date {
+    font-size: 24px;
+    color: #111111;
+    opacity: 32%;
+    margin-top: 4px;
+    margin-bottom: 17px;
+}
+
+.prod_card_img {
+    border-radius: 100%;
+    width: 238px !important;
+    height: 238px !important;
+}
+
+.production_card_link {
+    display: flex;
+    justify-content: center;
+    margin: 17px auto 36px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #111111;
+    gap: 12px;
+    text-align: center;
+    transition: transform 1s;
+}
+
+.production_card_link:hover {
+    transition: transform .7s;
+    transform: scale(1.4);
+}
+
+.arrow {
+    margin-top: 5px;
+}
+
+@media (max-width: 1280px) {
+
+    .production_card {
+        min-width: 366px;
+    }
+
+    .product_card_name {
+        font-size: 34px;
+    }
+}
+
+@media (max-width: 1152px) {
+
+    .production_card {
+        min-width: 328px;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .production_card {
+        min-width: 313px;
+    }
+
+    .product_card_name {
+        font-size: 30px;
+    }
+
+    .production_card_date {
+        font-size: 20px;
+    }
+}

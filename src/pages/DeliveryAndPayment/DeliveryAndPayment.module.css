@@ -1,0 +1,74 @@
+.del_and_pay_container {
+    font-family: "Commissioner", sans-serif;
+    /*font-weight: 400;*/
+    display: flex;
+    justify-content: center;
+    gap: 13%;
+    margin-top: 73px;
+}
+
+.del_and_pay_info {
+    display: flex;
+    flex-direction: column;
+}
+
+.delivery_info, .payment_info {
+    font-weight: 500;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.del_and_pay_info ul li {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.del_and_pay_info ul li::marker {
+    color: #FFC01E;
+}
+
+@media (max-width: 1280px) {
+    .del_and_pay_container {
+        gap: 5%;
+    }
+
+    .del_and_pay_info ul li {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 1152px) {
+    .del_and_pay_container {
+        flex-direction: column;
+    }
+
+    .del_and_pay_info {
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 80px;
+        margin-bottom: 80px;
+    }
+}
+
+@media (max-width: 425px) {
+
+    .del_and_pay_info {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .del_and_pay_info ul li {
+        font-size: 18px;
+    }
+
+    .delivery_info, .payment_info {
+        font-size: 40px;
+    }
+
+    .del_and_pay_info ul li {
+        margin-top: 12px;
+    }
+}

@@ -1,0 +1,21 @@
+.form_button {
+    margin: 30px 53px 0;
+    border: 2px solid #CCA237;
+    border-radius: 48px;
+    padding: 25px 92px;
+    background-color: #FFC01E4D;
+    color: #CCA237;
+    font-family: "Commissioner", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    transition: transform .7s;
+}
+
+.form_button:hover {
+    border: 2px solid #FFC01E;
+    color: #000000;
+    box-shadow: 0px 0px 20.299999237060547px #FFC01E;
+    background-color: #FFC01E;
+    transition: transform .7s;
+    transform: scale(1.1);
+}

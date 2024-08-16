@@ -1,0 +1,21 @@
+.header_button {
+    font-weight: 400;
+    font-size: 18px;
+    border-radius: 28px;
+    padding: 16px 36px;
+    border: none;
+    transition: transform .7s;
+}
+
+.header_button:hover {
+    box-shadow: 0px 0px 8.9px 0px rgba(0, 0, 0, 0.25);
+    transition: transform .7s;
+    transform: scale(1.1);
+}
+
+@media (max-width: 1152px) {
+
+    .header_button {
+        padding: 16px 20px;;
+    }
+}

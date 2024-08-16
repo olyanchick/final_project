@@ -1,0 +1,37 @@
+.reviews_card {
+    font-family: "Commissioner", sans-serif ;
+    background-color: #FFFFFF;
+    text-align: center;
+    min-height: 339px;
+    width: 630px;
+}
+
+.stars {
+    margin-top: 21px;
+}
+
+.review_title {
+    margin-top: 32px;
+    font-weight: 700;
+    font-size: 28px;
+    color: #2D1300;
+}
+
+.reviews_card_text {
+    margin: 18px 46px auto;
+    font-weight: 400;
+    font-size: 28px;
+    color: #2D1300;
+    text-align: center;
+}
+
+@media (max-width: 1280px) {
+
+    .reviews_card {
+        width: 560px;
+    }
+
+    .reviews_card_text {
+        font-size: 26px;
+    }
+}
